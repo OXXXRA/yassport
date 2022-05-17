@@ -1,0 +1,171 @@
+.medalSection {
+  margin-top: 300px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  &__title {
+    width: auto;
+    margin-top: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E1E1E;
+  }
+  &__medals {
+    display: flex;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+    gap: 35px;
+    display: flex;
+    &__item {
+      display: flex;
+      flex-direction: column;
+      max-height: 420px;
+      &__image img {
+        width: 320px;
+        height: 180px;
+      }
+      &__card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 166px;
+        width: 320px;
+        &__body {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            &:first-child {
+              margin-bottom: 20px;
+            }
+          }
+          display: flex;
+          padding-top: 68px;
+          padding-left: 19px;
+          padding-right: 94px;
+          padding-bottom: 16px;
+          background: #FFFFFF;
+          border: 1px solid #E9E9E9;
+          box-sizing: border-box;
+          box-shadow: 0px 2px 4px rgba(200, 200, 200, 0.4);
+          &__infoBlock {
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+            &__header {
+              display: flex;
+              gap: 4px;
+              align-items: flex-end;
+              font-family: 'Poppins';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 10px;
+              line-height: 10px;
+              color: #A3A3A3;
+              padding: 0px;
+            }
+            &__value {
+              font-family: 'Poppins';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 12px;
+              color: #545454;
+            }
+          }
+        }
+        &__title {
+          padding: 16px 0px 16px 16px;
+          position: absolute;
+          width: 280px;
+          height: 70px;
+          left: 21px;
+          top: -20px;
+          background: #FFFFFF;
+          border: 1px solid #E9E9E9;
+          box-sizing: border-box;
+          box-shadow: 0px 2px 4px rgba(200, 200, 200, 0.4);
+          border-radius: 8px;
+          &__id {
+            margin-bottom: 4px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 10px;
+            color: #D0D0D0;
+          }
+          &__text {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 24px;
+            color: #1E1E1E;
+          }
+        }
+        &__footer {
+          display: flex;
+          height: 72px;
+          border: 1px solid #E9E9E9;
+          border-top: none;
+          border-radius: 0 0 8px 8px;
+          padding: 14px 16px 16px 16px;
+          background: white;
+          &__favourite button {
+            margin-right: 10px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            padding: 8px 12px;
+            width: 48px;
+            height: 40px;
+            border: 1px solid #DDBE90;
+            box-sizing: border-box;
+            border-radius: 4px;
+          }
+          &__see button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 16px;
+            width: 222px;
+            height: 40px;
+            border: 1px solid #DDBE90;
+            box-sizing: border-box;
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+  }
+  &__loadMore {
+    button {
+      margin: 100px auto 40px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 16px 24px;
+      width: 144px;
+      height: 52px;
+      background: #FFFFFF;
+      border: 1px solid #DDBE90;
+      box-sizing: border-box;
+      border-radius: 4px;
+    }
+  }
+}

@@ -1,0 +1,153 @@
+.medalPage {
+  &__medalBlock {
+    padding-left: 60px;
+    padding-right: 64px;
+    display: flex;
+    &__album {
+      max-width: 644px;
+      &__main {
+        width: 644px;
+        height: 500px;
+        border: 1px solid #E9E9E9;
+        box-shadow: 0px 2px 4px rgba(200, 200, 200, 0.4);
+        border-radius: 8px;
+      }
+      &__wrapper {
+        margin-top: 16px;
+        display: flex;
+        gap: 8px;
+        img {
+          max-width: 100px;
+          border: 1px solid #E9E9E9;
+          box-shadow: 0px 2px 4px rgba(200, 200, 200, 0.4);
+          border-radius: 8px;
+        }
+      }
+    }
+    &__info {
+      margin-left: 24px;
+      background: #fff;
+      max-width: 644px;
+      padding: 32px;
+      &__id {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        color: #818181;
+        margin-bottom: 16px;
+      }
+      &__title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 68px;
+        text-transform: uppercase;
+        color: #1E1E1E;
+        margin-bottom: 48px;
+      }
+      &__about {
+        .text--subtitle {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 20px;
+          color: #818181;
+          margin-bottom: 16px;
+        }
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #1E1E1E;
+      }
+      .medalSection__medals__item__card__body {
+        margin-top: 48px;
+        padding-top: 26px;
+        padding-left: 27px;
+        margin-bottom: 48px;
+        padding-bottom: 32px;
+        padding-right: 140px;
+        background: #FFFFFF;
+        border: 1px solid #E9E9E9;
+        border-radius: 8px;
+        &__infoBlock {
+          width: 140px;
+          &__header {
+            align-items: center;
+            font-size: 20px;
+            & > svg {
+              width: 18px;
+              height: 20px;
+            }
+          }
+          &__value {
+            font-size: 18px;
+          }
+        }
+      }
+      &__actions {
+        display: flex;
+        button {
+          margin-right: 16px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding: 16px 24px;
+          gap: 16px;
+          width: 150px;
+          height: 52px;
+          background: #F5F5F5;
+          border-radius: 4px;
+        }
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #818181;
+        a {
+          color: #DDBE90;
+        }
+      }
+    }
+  }
+  &__results {
+    margin-top: 76px;
+    width: 100vw;
+    background: #FFFFFF;
+    padding-top: 56px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 40px;
+    &__title {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 32px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #1E1E1E;
+      margin-bottom: 40px;
+    }
+    &__search {
+      input {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 16px;
+        width: 100%;
+        height: 52px;
+        background: #F4F6F9;
+        border: 1px solid #E9E9E9;
+        border-radius: 4px;
+        margin-bottom: 16px;
+      }
+    }
+  }
+}
